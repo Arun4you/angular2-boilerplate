@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+	background-image:url(assets/vendor/images/Long_Distance_Running.jpg);
+	background-repeat: repeat-y;
+}
+
+.navbar-brand {
+    font-size: 22px;
+    color: white;
+}
+.img-responsive {
+    height: 200px;
+    width: 200px;
+}
+h1,h2,h3,h4,h5,h6 {
+    text-align: justify;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.fitnesspal .jumbotron {
+    background-color: #e56717;
+    color: #ffffff;
+    margin-top: -20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border:none;
+    background-image: url("assets/vendor/images/background-grid.png");
+    background-repeat: repeat;
+}
+
+
+/*Social Icons */
+
+.social-icon {
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 2em;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #ccc;
+}
+.fa-facebook {
+    background: none repeat scroll 0 0 #3b5998;
+}
+.fa-twitter {
+    background: none repeat scroll 0 0 #4099ff;
+}
+.fa-google-plus {
+    background: none repeat scroll 0 0 #d34836;
+}
+

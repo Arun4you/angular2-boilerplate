@@ -1,6 +1,6 @@
-# Daily Deals
+# Angular2 Boilerplate
 
-Daily Deals is an application built with Angular 2 that shows how you can add token based authentication to your Angular 2 applications. 
+Angular2 Boilerplate is an application built with Angular 2 that shows how add mutiple routes and shows hoow you can add token based authentication to your Angular 2 applications. 
 
 ## Development server
 Install the dependencies for this application by running `npm install`. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -29,11 +29,11 @@ Auth0 helps you to:
 
 ## Issue Reporting
 
-If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
+If you have found a bug or if you have a feature request, please report them at this repository issues section. 
 
 ## Author
 
-[Auth0](auth0.com)
+[Thirunavukkarasu](offloadmemory.com)
 
 ## License
 

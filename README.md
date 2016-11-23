@@ -1,45 +1,40 @@
-# FitnessPal
+# Daily Deals
 
-An app for fitness freaks
+Daily Deals is an application built with Angular 2 that shows how you can add token based authentication to your Angular 2 applications. 
 
-![Rocky](https://github.com/Thirunavukkarasu/FitnessPal/blob/master/client/vendor/images/rocky_fitness.jpg)
+## Development server
+Install the dependencies for this application by running `npm install`. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Getting Started
+## Auth0 Credentials
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+You will need an Auth0 Account to implement the Authentication Service. [Sign up](https://auth0.com/signup) for a free account. Edit the `auth.service.ts` file and update the ClientID and Domain with your Auth0 credentials.
 
-## Prerequisities
+*Note: Be sure to run the server portion of this project first, otherwise you won't see any data that is called from the API.*
 
-To get started with this project you need the following setup:
+## What is Auth0?
 
-MongoDB 3.2 or above
-ExpressJS 4.13.4 or above
-NodeJS 4.4.7 or above
-Git Client 
+Auth0 helps you to:
 
-## Steps 
+* Add authentication with [multiple authentication sources](https://docs.auth0.com/identityproviders), either social like **Google, Facebook, Microsoft Account, LinkedIn, GitHub, Twitter, Box, Salesforce, amont others**, or enterprise identity systems like **Windows Azure AD, Google Apps, Active Directory, ADFS or any SAML Identity Provider**.
+* Add authentication through more traditional **[username/password databases](https://docs.auth0.com/mysql-connection-tutorial)**.
+* Add support for **[linking different user accounts](https://docs.auth0.com/link-accounts)** with the same user.
+* Support for generating signed [Json Web Tokens](https://docs.auth0.com/jwt) to call your APIs and **flow the user identity** securely.
+* Analytics of how, when and where users are logging in.
+* Pull data from other sources and add it to the user profile, through [JavaScript rules](https://docs.auth0.com/rules).
 
+## Create a free Auth0 account
 
-**Checkout**
+1. Go to [Auth0](https://auth0.com/signup).
+2. Use Google, GitHub or Microsoft Account to log in.
 
-Checkout the code from github using git client.
+## Issue Reporting
 
-``git clone https://github.com/Thirunavukkarasu/Trackion.git``
+If you have found a bug or if you have a feature request, please report them at this repository issues section. Please do not report security vulnerabilities on the public GitHub issue tracker. The [Responsible Disclosure Program](https://auth0.com/whitehat) details the procedure for disclosing security issues.
 
-**Checkout the remote repository**
+## Author
 
-``git pull FitnessPal master``
+[Auth0](auth0.com)
 
-**Checkin the code from local repository**
+## License
 
-``git commit -am 'Updated ReadMe'``
-
-``git push FitnessPal master``
-
-## Import JSON MongoDB
-
-```
-> mongoimport --db test --collection runners runners.json
-> mongoimport --db test --collection results results.json
-
-```
+This project is licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
